@@ -1,0 +1,332 @@
+C:\Users\ReaperGunner>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3095-E437
+
+ Directory of C:\Users\ReaperGunner
+
+02/22/2018  12:55 AM    <DIR>          .
+02/22/2018  12:55 AM    <DIR>          ..
+02/22/2018  12:59 AM    <DIR>          .android
+01/23/2018  05:34 PM    <DIR>          .eclipse
+10/26/2017  11:15 PM    <DIR>          .Origin
+02/27/2018  03:54 PM    <DIR>          .p2
+10/26/2017  11:15 PM    <DIR>          .QtWebEngineProcess
+02/15/2018  07:06 PM    <DIR>          3D Objects
+11/11/2017  07:47 PM    <DIR>          ansel
+02/15/2018  07:06 PM    <DIR>          Contacts
+03/04/2018  09:28 PM    <DIR>          Desktop
+02/24/2018  11:28 PM    <DIR>          Documents
+03/02/2018  09:28 PM    <DIR>          Downloads
+02/27/2018  04:14 PM    <DIR>          Favorites
+10/27/2017  02:31 PM    <DIR>          Intel
+03/02/2018  08:00 PM    <DIR>          Links
+02/15/2018  07:06 PM    <DIR>          Music
+03/02/2018  08:00 PM    <DIR>          OneDrive
+02/15/2018  07:06 PM    <DIR>          Pictures
+02/15/2018  07:06 PM    <DIR>          Saved Games
+02/15/2018  07:06 PM    <DIR>          Searches
+02/15/2018  07:06 PM    <DIR>          Videos
+01/23/2018  05:10 PM    <DIR>          workspace
+               0 File(s)              0 bytes
+              23 Dir(s)  177,477,025,792 bytes free
+
+C:\Users\ReaperGunner>cd ..
+
+C:\Users>cd ..
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3095-E437
+
+ Directory of C:\
+
+11/07/2007  08:00 AM            17,734 eula.1028.txt
+11/07/2007  08:00 AM            17,734 eula.1031.txt
+11/07/2007  08:00 AM            10,134 eula.1033.txt
+11/07/2007  08:00 AM            17,734 eula.1036.txt
+11/07/2007  08:00 AM            17,734 eula.1040.txt
+11/07/2007  08:00 AM               118 eula.1041.txt
+11/07/2007  08:00 AM            17,734 eula.1042.txt
+11/07/2007  08:00 AM            17,734 eula.2052.txt
+11/07/2007  08:00 AM            17,734 eula.3082.txt
+12/22/2017  11:59 AM    <DIR>          FreeOCR
+11/07/2007  08:00 AM             1,110 globdata.ini
+11/07/2007  08:03 AM           562,688 install.exe
+11/07/2007  08:00 AM               843 install.ini
+11/07/2007  08:03 AM            76,304 install.res.1028.dll
+11/07/2007  08:03 AM            96,272 install.res.1031.dll
+11/07/2007  08:03 AM            91,152 install.res.1033.dll
+11/07/2007  08:03 AM            97,296 install.res.1036.dll
+11/07/2007  08:03 AM            95,248 install.res.1040.dll
+11/07/2007  08:03 AM            81,424 install.res.1041.dll
+11/07/2007  08:03 AM            79,888 install.res.1042.dll
+11/07/2007  08:03 AM            75,792 install.res.2052.dll
+11/07/2007  08:03 AM            96,272 install.res.3082.dll
+12/29/2017  11:47 AM    <DIR>          lailai
+01/23/2018  03:53 PM    <DIR>          MinGW
+12/13/2017  08:44 PM    <DIR>          MSI
+12/16/2017  02:10 AM    <DIR>          PerfLogs
+03/04/2018  09:29 PM    <DIR>          Program Files
+03/02/2018  08:18 PM    <DIR>          Program Files (x86)
+03/04/2018  09:22 PM    <DIR>          terence18
+12/03/2017  09:03 PM    <DIR>          Users
+11/07/2007  08:00 AM             5,686 vcredist.bmp
+11/07/2007  08:50 AM         1,927,956 VC_RED.cab
+11/07/2007  08:53 AM           242,176 VC_RED.MSI
+03/04/2018  04:59 PM    <DIR>          Windows
+12/14/2017  10:21 PM    <DIR>          Windows.old
+10/27/2017  12:59 AM    <DIR>          Windows10Upgrade
+01/23/2018  11:24 PM    <DIR>          xampp
+              24 File(s)      3,664,497 bytes
+              13 Dir(s)  177,477,074,944 bytes free
+
+C:\>cd gits
+The system cannot find the path specified.
+
+C:\>git help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\>cd terence18
+
+C:\terence18>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3095-E437
+
+ Directory of C:\terence18
+
+03/04/2018  09:22 PM    <DIR>          .
+03/04/2018  09:22 PM    <DIR>          ..
+02/08/2018  06:27 PM    <DIR>          1. Lectures
+03/04/2018  01:22 PM    <DIR>          121com
+12/28/2017  03:07 AM    <DIR>          122COM Introduction to Algorithms
+02/27/2018  03:55 PM    <DIR>          1718SemB
+02/27/2018  03:52 PM    <DIR>          1718SemB121COM
+02/27/2018  03:22 PM    <DIR>          2003dco10103
+02/27/2018  06:09 PM    <DIR>          303cem
+01/24/2018  05:35 PM           115,142 bank.JPG
+03/04/2018  09:22 PM         7,637,052 course_files_export.zip
+02/01/2018  09:52 AM    <DIR>          fromTwinkle
+02/02/2018  02:12 PM    <DIR>          isom
+01/24/2018  05:31 PM           103,297 payslip.JPG
+02/08/2018  04:51 PM    <DIR>          pythonCode
+01/24/2018  05:30 PM    <DIR>          tmp
+               3 File(s)      7,855,491 bytes
+              13 Dir(s)  177,476,673,536 bytes free
+
+C:\terence18>md git
+
+C:\terence18>cd git
+
+C:\terence18\git>git config --global user.name "Terence Chan"
+
+C:\terence18\git>git config --global user.mail "dcywchan@cityu.edu.hk"
+
+C:\terence18\git>md repo1
+
+C:\terence18\git>cd repo1
+
+C:\terence18\git\repo1>git init
+Initialized empty Git repository in C:/terence18/git/repo1/.git/
+
+C:\terence18\git\repo1>git clone https://github.com/SCOPEterenceChan/CHK121COMlab3q1SimpleBillingFromXML
+Cloning into 'CHK121COMlab3q1SimpleBillingFromXML'...
+remote: Counting objects: 9, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+
+C:\terence18\git\repo1>git add .
+warning: adding embedded git repository: CHK121COMlab3q1SimpleBillingFromXML
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> CHK121COMlab3q1SimpleBillingFromXML
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached CHK121COMlab3q1SimpleBillingFromXML
+hint:
+hint: See "git help submodule" for more information.
+
+C:\terence18\git\repo1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3095-E437
+
+ Directory of C:\terence18\git\repo1
+
+03/04/2018  09:51 PM    <DIR>          .
+03/04/2018  09:51 PM    <DIR>          ..
+03/04/2018  09:59 PM    <DIR>          CHK121COMlab3q1SimpleBillingFromXML
+               0 File(s)              0 bytes
+               3 Dir(s)  177,461,252,096 bytes free
+
+C:\terence18\git\repo1>cd CHK121COMlab3q1SimpleBillingFromXML
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3095-E437
+
+ Directory of C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML
+
+03/04/2018  09:59 PM    <DIR>          .
+03/04/2018  09:59 PM    <DIR>          ..
+03/04/2018  10:00 PM               754 README.md
+03/04/2018  09:52 PM             1,771 SimpleBillingFromXML.py
+03/04/2018  09:59 PM    <DIR>          week1
+               2 File(s)          2,525 bytes
+               3 Dir(s)  177,461,374,976 bytes free
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git add .
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>dit status
+'dit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+        new file:   week1/cgilogon.html
+        new file:   week1/cgilogon.py
+        new file:   week1/cgip1.py
+
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git commit -m 'first git exercise'
+error: pathspec 'git' did not match any file(s) known to git.
+error: pathspec 'exercise'' did not match any file(s) known to git.
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git commit -m 'testing'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ReaperGunner@DESKTOP-9C78V2F.(none)')
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git config --global user.name "Terence Chan"
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git config --global user.name "Terence Chan"
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git commit -m 'testing'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ReaperGunner@DESKTOP-9C78V2F.(none)')
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git config user.mail "dcywchan@cityu.edu.hk"
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git config user.name "Terence Chan"
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git commit -m 'testing'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ReaperGunner@DESKTOP-9C78V2F.(none)')
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ReaperGunner@DESKTOP-9C78V2F.(none)')
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Anonymous access to SCOPEterenceChan/CHK121COMlab3q1SimpleBillingFromXML.git denied.
+fatal: Authentication failed for 'https://github.com/SCOPEterenceChan/CHK121COMlab3q1SimpleBillingFromXML/'
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git pull
+Already up to date.
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git branch
+* master
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git checkout version1
+error: pathspec 'version1' did not match any file(s) known to git.
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git checkout SimpleBillingFromXML
+error: pathspec 'SimpleBillingFromXML' did not match any file(s) known to git.
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>git checkout bug/bug1
+error: pathspec 'bug/bug1' did not match any file(s) known to git.
+
+C:\terence18\git\repo1\CHK121COMlab3q1SimpleBillingFromXML>
