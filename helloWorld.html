@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<canvas id="myCanvas" width=300 height=450 style="border:2px solid black;">
+			Your browser does not support the HTML5 canvas tag.
+		</canvas>
+	<script>
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+
+		ctx.font = '12pt Arial';
+		ctx.fillStyle = 'cornflowerblue';
+		ctx.strokeStyle = 'blue';
+		ctx.fillText('Hello World', 35, 60);
+		ctx.strokeText('Hello World', 35, 60);
+
+		ctx.moveTo(75,25); 
+		ctx.font="8pt Arial";
+		ctx.quadraticCurveTo(20,20,25,62.5);
+		ctx.quadraticCurveTo(25,100,50,100); 
+		ctx.quadraticCurveTo(50,120,30,125); 
+		ctx.quadraticCurveTo(60,120,65,100); 
+		ctx.quadraticCurveTo(125,100,125,62.5); 
+		ctx.quadraticCurveTo(125,25,75,25); 
+		ctx.stroke();
+		ctx.closePath();
+	</script>
+	</body>
+</html>
